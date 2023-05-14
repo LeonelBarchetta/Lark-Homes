@@ -30,12 +30,14 @@ p, a, h1, h2, h3{
 
 .dis{
     display: flex;
+    align-items: center;
 }
 
 .disdos{
     display: flex;
     width: 45%;
     justify-content: space-around;
+    align-items: center;
 }
 
 .espacio{
@@ -43,8 +45,19 @@ p, a, h1, h2, h3{
     padding-bottom: 10%;
 }
 
+.logo{
+    height: 1.5rem;
+}
+.lark{
+    font-weight: bold;
+}
+
 .gray{
     color: gray;
+}
+
+.flecha{
+    height: 0.9rem;
 }
 
 .graydos{
@@ -55,13 +68,15 @@ p, a, h1, h2, h3{
 
 .icon{
    display: flex;
+   align-items: center;
 }
+
 
 .boton{
     width: 8rem;
     height: 2.5rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 2rem;
     background-color: #3952B6;
 }
 
@@ -71,6 +86,8 @@ p, a, h1, h2, h3{
 
 .section{
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 10% ;
 }
 
 .titulo{
@@ -81,4 +98,95 @@ p, a, h1, h2, h3{
 
 .divuno{
     width: 50%;
+}
+
+.imagenuno{
+    height: 50rem;
+    width: 42rem;
+    border-radius: 2rem;
+}
+
+.textouno{
+    font-size: 1.5rem;
+    color: gray;
+    margin-bottom: 4rem;
+}
+
+.divsearch{
+    display: flex;
+    align-items: center;
+}
+
+.searchuno{
+    width: 90%;
+    height: 6rem;
+    background-color: #F5F5F5;
+    border: none;
+    border-top-left-radius: 4rem ;
+    border-bottom-left-radius: 4rem;
+    padding-left: 2rem;
+}
+
+.fondo{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    background-color: #F5F5F5;
+    border-top-right-radius: 4rem ;
+    border-bottom-right-radius: 4rem;
+}
+.botondos{
+    margin-right: 1rem;
+    width: 10rem;
+    height: 4rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #3952B6;
+    font-size: 1.2rem;
+}
+
+.divnum{
+    margin-top: 4rem;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+   
+}
+
+.num{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.textnum{
+    font-size: 1.5rem;
+}
+
+
+
+@media(max-width:1024px){
+    .imagenuno{
+        height: 33rem;
+        width: 25rem;
+        border-radius: 2rem;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+    .flecha{
+        height: 0.5rem;
+    }
+    .titulo{
+        font-size: 3rem;
+    }
+    .textouno{
+        font-size: 1rem;
+    }
+    .num{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    .textnum{
+        font-size: 0.8rem;
+    }
 }
