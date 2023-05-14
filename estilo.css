@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-body{
+header, .section, .sectiondos, .sectiontres{
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -253,6 +253,11 @@ p, a, h1, h2, h3{
     padding-left:  1rem;
 }
 
+.sectiontres{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .abajo{
     display: flex;
     justify-content: space-between;
@@ -260,8 +265,13 @@ p, a, h1, h2, h3{
     align-items: center;
 }
 
+.mitad{
+    width: 42.5%;
+}
+
 .seemoreUno{
     font-size: 1.5rem;
+    color: gray;
 }
 
 .seemoreDos{
@@ -272,6 +282,31 @@ p, a, h1, h2, h3{
     border-radius: 3rem ;
     background-color: white;
     
+}
+
+.sectiontres{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+}
+
+.titulotres{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.tresimagenesuno{
+    border-radius: 2rem;
+    height: 30rem;
+    margin-top: 2rem;
+    width: 45rem;
+}
+
+.tresimagenesdos{
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    height: 30rem;
+    width: 45rem;
 }
 
 @media(max-width:1024px){
