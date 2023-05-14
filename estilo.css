@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-header, .section, .sectiondos, .sectiontres{
+header, .section, .sectiondos, .sectiontres, .sectioncuatro{
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -309,6 +309,59 @@ p, a, h1, h2, h3{
     width: 45rem;
 }
 
+.sectioncuatro{
+    padding-top: 5%;
+}
+
+.divsecuatro{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    align-items: center;
+}
+
+.titulocuatro{
+    font-size: 4rem;
+    width: 45%;
+}
+
+.textoseccuatro{
+    font-size: 1.5rem;
+    color: gray;
+    width: 45%;
+}
+
+.enumeracion{
+    display: flex;
+    margin-bottom: 6%;
+}
+
+.seccuatro{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.numero{
+    height: 5rem;
+    width: 5rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 5rem;
+    background-color: #222430;
+    
+}
+
+.textotres{
+    font-size: 1.5rem;
+    color: gray;
+
+}
+
+.ancho{
+    margin-right: 1rem;
+}
+
 @media(max-width:1024px){
     .imagenuno{
         height: 33rem;
@@ -333,5 +386,53 @@ p, a, h1, h2, h3{
     }
     .textnum{
         font-size: 0.8rem;
+    }
+    .titulodos{
+        font-size: 2rem;
+    }
+    .imagenfondo{
+        height: 5rem;
+        width: 5rem;
+    }
+    .imagenfondoDos{
+        height: 5rem;
+        width: 5rem;
+    }
+    .imagenfondoTres{
+        height: 5rem;
+        width: 5rem;
+    }
+    .imagenfondoCuatro{
+        height: 5rem;
+        width: 5rem;
+    }
+    .precio{
+        font-size: 1rem;
+    }
+    .textoimagen{
+        font-size: 1rem;
+        width: 5rem;
+    }
+    .tresimagenesuno{
+        height: 10rem;
+        width: 10rem;
+    }
+    .tresimagenesdos{
+        height: 10rem;
+        width: 10rem;
+    }
+    .titulocuatro{
+        font-size: 2rem;
+    }
+    .numero{
+        height: 2.5rem;
+        width: 2.5rem;
+        font-size: 1rem;
+    }
+    .seccuatro{
+        font-size: 1.5rem;
+    }
+    .textotres{
+        font-size: 0.9rem;
     }
 }
