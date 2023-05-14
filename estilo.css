@@ -182,12 +182,42 @@ p, a, h1, h2, h3{
 
 .imagenes{
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     justify-content: space-between;
 }
 
 .imagenfondo{
     background-image: url(primeraimagen.jpg);
+    height: 22rem;
+    width: 23rem;
+    border-radius: 2rem;
+    background-position: center;
+    padding: 1.5rem;
+    margin-bottom: 2.3rem;
+}
+
+.imagenfondoDos{
+    background-image: url(imagendos.jpg);
+    height: 22rem;
+    width: 23rem;
+    border-radius: 2rem;
+    background-position: center;
+    padding: 1.5rem;
+    margin-bottom: 2.3rem;
+}
+
+.imagenfondoTres{
+    background-image: url(imagentres.jpg);
+    height: 22rem;
+    width: 23rem;
+    border-radius: 2rem;
+    background-position: center;
+    padding: 1.5rem;
+    margin-bottom: 2.3rem;
+}
+
+.imagenfondoCuatro{
+    background-image: url(imagencuatro.jpg);
     height: 22rem;
     width: 23rem;
     border-radius: 2rem;
@@ -211,11 +241,37 @@ p, a, h1, h2, h3{
     width: 23rem;
     font-size: 3.2rem;
     font-weight: bolder;
+    margin-bottom: 1rem;
 }
 
 .ubicacion{
     display: flex;
     font-size: 1.5rem;
+}
+
+.ubi{
+    padding-left:  1rem;
+}
+
+.abajo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+.seemoreUno{
+    font-size: 1.5rem;
+}
+
+.seemoreDos{
+    height: 5rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    border: none solid black;
+    border-radius: 3rem ;
+    background-color: white;
+    
 }
 
 @media(max-width:1024px){
