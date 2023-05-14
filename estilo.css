@@ -87,7 +87,7 @@ p, a, h1, h2, h3{
 .section{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10% ;
+    padding-bottom: 15% ;
 }
 
 .titulo{
@@ -163,6 +163,60 @@ p, a, h1, h2, h3{
 }
 
 
+
+.secciondos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6%;
+}
+
+.titulodos{
+    font-size: 4rem;
+}
+
+.textodos{
+    font-size: 1.5rem;
+    color: gray;
+    width: 50%;
+}
+
+.imagenes{
+    display: flex;
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+
+.imagenfondo{
+    background-image: url(primeraimagen.jpg);
+    height: 22rem;
+    width: 23rem;
+    border-radius: 2rem;
+    background-position: center;
+    padding: 1.5rem;
+    margin-bottom: 2.3rem;
+}
+
+.precio{
+    height: 4rem;
+    width: 10rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #222430;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.textoimagen{
+    width: 23rem;
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+
+.ubicacion{
+    display: flex;
+    font-size: 1.5rem;
+}
 
 @media(max-width:1024px){
     .imagenuno{
