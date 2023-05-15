@@ -552,7 +552,62 @@ p, a, h1, h2, h3{
 footer{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 8%;
 }
+
+.textofooter{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    width: 25rem;
+    line-height: 2.5rem;
+}
+
+.uno{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+
+.dos{
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.info{
+    font-size: 1rem;
+    width: 13rem;
+}
+
+.divinfo{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.iconfooter{
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+
+.email{
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+.submit{
+    border-radius: 3rem;
+    align-items: center;
+    width: 22rem;
+    height: 4rem;
+    background-color: #3952B6;
+}
+
 
 
 
