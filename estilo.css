@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-header, .section, .sectiondos, .sectiontres, .sectioncuatro{
+header, .section, .sectiondos, .sectiontres, .sectioncuatro, .sectioncinco{
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -362,6 +362,80 @@ p, a, h1, h2, h3{
     margin-right: 1rem;
 }
 
+
+.sectioncinco{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 10%;
+}
+
+.titulocinco{
+    font-size: 4rem;
+    width: 45rem;
+    margin-bottom: 2rem;
+}
+
+.textocinco{
+    font-size: 1.5rem;
+    width: 48rem;
+    margin-bottom: 2rem;
+}
+
+.cinco{
+    height: 65rem;
+    width: 52rem;
+    border-radius: 2rem;
+}
+
+.subtitulocinco{
+    font-size: 3.5rem;
+    padding-left: 1rem;
+}
+
+.subtextocinco{
+    font-size: 1.5rem;
+    width: 45rem;
+    padding-left: 1rem;
+}
+
+.boxcinco{
+    border: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    height: 12rem;
+    width: 50rem;
+    border-radius: 2.5rem;
+    display: flex;
+}
+
+
+.boxsombracinco{
+    border: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    height: 12rem;
+    width: 50rem;
+    border-radius: 2.5rem;
+    box-shadow: 0rem 10rem 27rem #d3d3d3;
+    display: flex;
+}
+
+.check{
+    height: 4rem;
+    width: 4rem;
+    background-color: #222430;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkdos{
+    height: 2rem;
+    color: white;
+
+}
+
 @media(max-width:1024px){
     .imagenuno{
         height: 33rem;
@@ -434,5 +508,15 @@ p, a, h1, h2, h3{
     }
     .textotres{
         font-size: 0.9rem;
+    }
+    .cinco{
+        height: 10rem;
+        width: 8rem;
+    }
+    .titulocinco{
+        font-size: 1rem;
+    }
+    .textocinco{
+        font-size: 0.5rem;
     }
 }
