@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-header, .section, .sectiondos, .sectiontres, .sectioncuatro, .sectioncinco{
+header, .section, .sectiondos, .sectiontres, .sectioncuatro, .sectioncinco, .sectionseis{
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -382,7 +382,7 @@ p, a, h1, h2, h3{
 }
 
 .cinco{
-    height: 65rem;
+    height: 60rem;
     width: 52rem;
     border-radius: 2rem;
 }
@@ -435,6 +435,72 @@ p, a, h1, h2, h3{
     color: white;
 
 }
+
+.sectionseis{
+    padding-bottom: 10%;
+}
+.divseis{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.tituloseis{
+    font-size: 4rem;
+    width: 50rem;
+    margin-bottom: 2rem;
+}
+
+.seis{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dosseis{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.unoseis{
+    width: 49rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 1.5rem;
+}
+
+.unoseissombra{
+    width: 49rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 0rem 10rem 27rem #d3d3d3 ;
+}
+
+.tresseis{
+    display: flex;
+    align-items: center;
+}
+
+.subtituloseis{
+    font-size: 1.7rem;
+}
+
+.nombre{
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.perfil{
+    height: 3rem;
+    border-radius: 3rem;
+    margin-right: 1rem;
+}
+
+
+
+
+
 
 @media(max-width:1024px){
     .imagenuno{
