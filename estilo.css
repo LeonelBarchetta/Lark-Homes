@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-header, .section, .sectiondos, .sectiontres, .sectioncuatro, .sectioncinco, .sectionseis{
+header, .section, .sectiondos, .sectiontres, .sectioncuatro, .sectioncinco, .sectionseis, .sectionsiete, footer{
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -498,7 +498,61 @@ p, a, h1, h2, h3{
 }
 
 
+.sectionsiete{
+    display: flex;
+    padding-bottom: 10%;
+    justify-content: space-between;
+}
 
+.pileta{
+    height: 50rem;
+    width: 47rem;
+    border-radius: 2rem;
+}
+
+.titulosiete{
+    font-size: 5rem;
+    width: 50rem;
+    margin-bottom: 2rem;
+}
+
+.textosiete{
+    font-size: 1.5rem;
+    width: 55rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+}
+
+.getazul{
+    width: 18rem;
+    height: 5rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: #3952B6;
+}
+
+.blancodos{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.ilera{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.minifoto{
+    height: 18rem;
+    width: 17rem;
+    border-radius: 2rem;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
