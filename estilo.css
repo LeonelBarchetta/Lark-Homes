@@ -611,7 +611,11 @@ footer{
 
 
 
-@media(max-width:1024px){
+/* @media(max-width:1024px){
+    *{
+        flex-wrap: wrap;
+    }
+    
     .imagenuno{
         height: 33rem;
         width: 25rem;
@@ -674,8 +678,8 @@ footer{
         font-size: 2rem;
     }
     .numero{
-        height: 2.5rem;
-        width: 2.5rem;
+        height: 2rem;
+        width: 2rem;
         font-size: 1rem;
     }
     .seccuatro{
@@ -684,14 +688,84 @@ footer{
     .textotres{
         font-size: 0.9rem;
     }
+    .titulocuatro{
+        font-size: 1rem;
+        width: 10rem;
+    }
+    .textoseccuatro{
+        font-size: 1rem;
+    }
+    .seemoreUno{
+        font-size: 1rem;
+        width: 10rem;
+    }
     .cinco{
-        height: 10rem;
-        width: 8rem;
+        height: 8rem;
+        width: 1rem;
     }
     .titulocinco{
         font-size: 1rem;
     }
     .textocinco{
+        font-size: 1rem;
+    }
+    .subtitulocinco{
+        font-size: 1rem;
+    }
+    .subtextocinco{
+        font-size: 1rem;
+        width: 20rem;
+    }
+    .boxsombracinco{
+        width: 25rem;
+    }
+    .boxcinco{
+        width: 25rem;
+    }
+    .pileta{
+        width: 5rem;
+        height: 10rem;
+    }
+    .titulosiete{
+        font-size: 2rem;
+    }
+    .textosiete{
+        font-size: 1rem;
+        width: 20rem;
+    }
+    .minifoto{
+        height: 5rem;
+        width: 5rem;
+    }
+    .ilera{
+        width: 15rem;
+    }
+    .textofooter{
+        font-size: 1rem;
+        width: 10rem;
+    }
+    .email{
+        width: 5rem;
+    }
+    .submit{
+        width: 5rem;
+    }
+    .nombre{
+        font-size: 1rem;
+    }
+    .subtituloseis{
+        font-size: 1rem;
+    }
+    .dosseis{
         font-size: 0.5rem;
     }
-}
+    .tituloseis{
+        font-size: 1rem;
+    }
+    .textotres{
+        font-size: 1rem;
+    }
+    .perfil{
+        height: 1rem;
+    }
+} */
