@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+body{
+    width: 1920px;
+}
 header, .section, .sectiondos, .sectiontres, .sectioncuatro, .sectioncinco, .sectionseis, .sectionsiete, footer{
     padding-left: 5%;
     padding-right: 5%;
@@ -71,19 +74,47 @@ p, a, h1, h2, h3{
    align-items: center;
 }
 
+.home:hover{
+    text-decoration: underline;
 
+}
+.gray:hover{
+    text-decoration: underline;
+
+}
+
+.graydos:hover{
+    text-decoration: underline;
+
+}
 .boton{
     width: 8rem;
     height: 2.5rem;
     border: none;
     border-radius: 2rem;
     background-color: #3952B6;
+    transition: background 0.3s,
+                transform 0.2s;
 }
 
+.boton:hover{
+    transform: scale(1.2);
+}
 .blanco{
     color: white;
 }
-
+.menus{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    height: 2rem;
+}
+@media(min-width:750px){
+    .menu{
+        display:none
+    }
+}
 .section{
     display: flex;
     justify-content: space-between;
@@ -117,13 +148,27 @@ p, a, h1, h2, h3{
     align-items: center;
 }
 
+.iconosearch{
+    background-color: #F5F5F5;
+    border-top-left-radius: 5rem ;
+    border-bottom-left-radius: 4rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.minisearch{
+    margin-left: 2rem;
+    height: 1.5rem;
+}
 .searchuno{
-    width: 90%;
+    width: 80%;
     height: 6rem;
     background-color: #F5F5F5;
     border: none;
-    border-top-left-radius: 4rem ;
-    border-bottom-left-radius: 4rem;
+    /* border-top-left-radius: 4rem ;
+    border-bottom-left-radius: 4rem; */
     padding-left: 2rem;
 }
 
@@ -143,8 +188,12 @@ p, a, h1, h2, h3{
     border-radius: 2rem;
     background-color: #3952B6;
     font-size: 1.2rem;
+    transition: background 0.3s,
+                transform 0.2s;
 }
-
+.botondos:hover{
+    transform: scale(1.2);
+}
 .divnum{
     margin-top: 4rem;
     display: flex;
@@ -188,42 +237,46 @@ p, a, h1, h2, h3{
 
 .imagenfondo{
     background-image: url(primeraimagen.jpg);
-    height: 22rem;
-    width: 23rem;
+    height: 20rem;
+    width: 21rem;
     border-radius: 2rem;
     background-position: center;
     padding: 1.5rem;
     margin-bottom: 2.3rem;
+    margin-right: 1rem;
 }
 
 .imagenfondoDos{
     background-image: url(imagendos.jpg);
-    height: 22rem;
-    width: 23rem;
+    height: 20rem;
+    width: 21rem;
     border-radius: 2rem;
     background-position: center;
     padding: 1.5rem;
     margin-bottom: 2.3rem;
+    margin-right: 1rem;
 }
 
 .imagenfondoTres{
     background-image: url(imagentres.jpg);
-    height: 22rem;
-    width: 23rem;
+    height: 20rem;
+    width: 21rem;
     border-radius: 2rem;
     background-position: center;
     padding: 1.5rem;
     margin-bottom: 2.3rem;
+    margin-right: 1rem;
 }
 
 .imagenfondoCuatro{
     background-image: url(imagencuatro.jpg);
-    height: 22rem;
-    width: 23rem;
+    height: 20rem;
+    width: 21rem;
     border-radius: 2rem;
     background-position: center;
     padding: 1.5rem;
     margin-bottom: 2.3rem;
+    margin-right: 1rem;
 }
 
 .precio{
@@ -251,6 +304,11 @@ p, a, h1, h2, h3{
 
 .ubi{
     padding-left:  1rem;
+  
+}
+
+.ubi:hover{
+    text-decoration: underline;
 }
 
 .sectiontres{
@@ -281,7 +339,12 @@ p, a, h1, h2, h3{
     border: none solid black;
     border-radius: 3rem ;
     background-color: white;
-    
+    transition: background 0.3s,
+                transform 0.2s;
+}
+
+.seemoreDos:hover{
+    transform: scale(1.2);
 }
 
 .sectiontres{
@@ -529,6 +592,12 @@ p, a, h1, h2, h3{
     border: none;
     border-radius: 3rem;
     background-color: #3952B6;
+    transition: background 0.3s,
+                transform 0.2s;
+}
+
+.getazul:hover{
+    transform: scale(1.2);
 }
 
 .blancodos{
@@ -605,12 +674,138 @@ footer{
     align-items: center;
     width: 22rem;
     height: 4rem;
+    border: none;
     background-color: #3952B6;
+    transition: background 0.3s,
+                transform 0.2s;
+}
+
+.submit:hover{
+    transform: scale(1.2);
 }
 
 
 
+@media(max-width:730px){
+    .boton{
+        display: none;
+    }
+    .menu{
+        height: 10rem;
+    }
+    .disdos{
+        display: none;
+    }
+    .logo{
+        height: 10rem;
+    }
+    .lark{
+        font-size: 4rem;
+    }
+    .espacio{
+        height: 15rem;
+    }
+    .divuno{
+        width: 100%;
+        margin-right: 3rem;
+    }
+    .titulo{
+        font-size: 5rem;
+    }
+    .textouno{
+        font-size: 3rem;
+    }
+    .iconosearch{
+        height: 10rem;
+    }
+    .searchuno{
+        height: 10rem;
+        width: 90%;
+        font-size: 2rem;
+        border-top-right-radius: 4rem ;
+        border-bottom-right-radius: 4rem;
+    }
+    .botondos{
+        display: none;
 
+    }
+    .divnum{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .textnum{
+        flex-wrap: wrap;
+        font-size: 3rem;
+        margin-right: 2rem;
+    }
+    .imagenuno{
+        height: 68rem;
+    }
+    .textodos{
+        font-size: 2.5rem;
+    }
+    .imagenes{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .imagenfondo, .imagenfondoDos, .imagenfondoTres, .imagenfondoCuatro{
+        width: 35rem;
+    }
+    .ubi{
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+   
+    .seemoreUno{
+        font-size: 3rem;
+        width: 50rem;
+    }
+    
+    .seemoreDos{
+        height: 10rem;
+        width: 20rem;
+    }
+    .textoseccuatro{
+        font-size: 3rem;
+    }
+    .enumeracion{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .textotres{
+        margin-right: 2rem;
+        padding-bottom: 5rem;
+        font-size: 3rem;
+        width: 35rem;
+    }
+    .sectioncinco{
+        flex-wrap: wrap;
+
+    }
+    .textocinco{
+        font-size: 3rem;
+    }
+    .boxsombracinco, .boxcinco{
+        height: 20rem;
+    }
+    .subtextocinco{
+        font-size: 2.5rem;
+    }
+    .cinco{
+        height: 100%;
+    }
+    .seis{
+        flex-wrap: wrap;
+    }
+    .dosseis{
+        font-size: 2rem;
+    }
+    .textosiete{
+        font-size: 2.5rem;
+    }
+    
+}
 /* @media(max-width:1024px){
     *{
         flex-wrap: wrap;
