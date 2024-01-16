@@ -1,4 +1,685 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Instrument+Serif&family=Nunito:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p, a, h1, h2, h3, h4, h6, input, ul, li, button{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    height: 7rem;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+
+.logo img{
+    height: 3rem;
+}
+
+.logo p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.listNav{
+    display: flex;
+    gap: 2rem;
+}
+
+.listNav p{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.listNav p:hover{
+    text-decoration: underline;
+}
+
+.listNav p:nth-child(1){
+    font-weight: bolder;
+}
+
+nav button{
+    border: none;
+    height: 3.5rem;
+    width: 13rem;
+    font-size: 1.5rem;
+    background-color: #3952B6;
+    color: white;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: background 0.3s,
+                transform 0.2s;
+}
+
+nav button:hover{
+    background-color: #5c7cff;
+}
+
+.section{
+    padding-top: 12rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section h1{
+    font-size: 5.5rem;
+    width: 50rem;
+}
+
+.section .texto{
+    font-size: 1.5rem;
+    width: 50rem;
+    line-height: 1.7;
+}
+
+.section .divUno{
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section .divUno .divDos{
+    display: flex;
+    width: 52rem;
+    height: 6rem;
+    background-color: #F5F5F5;
+    border-radius: 3rem;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    
+}
+
+.section .divUno .divDos img{
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.section .divUno .divDos input{
+    width: 100%;
+    border: none;
+    font-size: 1.5rem;
+    background-color: #F5F5F5;
+    padding-left: 1rem;
+    outline: none;
+}
+
+.section .divUno .divDos button{
+    border: none;
+    height: 3.5rem;
+    width: 13rem;
+    font-size: 1.5rem;
+    background-color: #3952B6;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background 0.3s,
+                transform 0.2s;
+}
+
+.section .divUno .divDos button:hover{
+    background-color: #5c7cff;
+}
+
+.section .divUno .divTres{
+    display: flex;
+    gap: 3rem;
+}
+
+.section .divUno .divTres p{
+    font-size: 3rem;
+}
+
+.section .divUno .divTres h4{
+    font-size: 1.5rem;
+}
+
+.section .imagen{
+    height: 50rem;
+    border-radius: 2rem;
+}
+
+.sectionDos{
+    padding: 5rem;
+}
+
+.sectionDos .divUno{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionDos .divUno h2{
+    font-size: 3.5rem;
+}
+
+.sectionDos .divUno .texto{
+    font-size: 1.5rem;
+    width: 50rem;
+    line-height: 1.7;
+}
+
+.sectionDos .divDos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    gap: 1.5rem;
+}
+
+.sectionDos .divDos .img1{
+    background-image: url(primeraimagen.jpg);
+    height: 20rem;
+    border-radius: 2rem;
+    background-position: center;
+    padding: 1.5rem;
+}
+
+.sectionDos .divDos .img2{
+    background-image: url(imagendos.jpg);
+    height: 20rem;
+    border-radius: 2rem;
+    background-position: center;
+    padding: 1.5rem;
+}
+
+.sectionDos .divDos .img3{
+    background-image: url(imagentres.jpg);
+    height: 20rem;
+    border-radius: 2rem;
+    background-position: center;
+    padding: 1.5rem;
+}
+
+.sectionDos .divDos .img4{
+    background-image: url(imagencuatro.jpg);
+    height: 20rem;
+    border-radius: 2rem;
+    background-position: center;
+    padding: 1.5rem;
+}
+
+.sectionDos .divDos .divTres p:nth-child(1){
+    border-radius: 2rem;
+    background-color: #222430;
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+    font-weight: bolder;
+    padding: 0.5rem 2rem;
+}
+
+.sectionDos .divDos .divTres h3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.sectionDos .divDos .divTres a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.sectionDos .divDos .divTres a:hover{
+    text-decoration: underline;
+}
+
+.sectionDos .divDos .divTres a img{
+    height: 2rem;
+}
+
+.sectionDos .divCuatro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionDos .divCuatro p{
+    font-size: 1.5rem;
+}
+
+
+.sectionDos .divCuatro button{
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background 0.3s,
+                transform 0.2s;
+}
+
+.sectionDos .divCuatro button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.sectionTres{
+    padding: 5rem;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sectionTres div{
+    width: 45rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionTres div h2{
+    font-size: 3.5rem;
+}
+
+.sectionTres div p{
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+.sectionTres div img{
+    width: 45rem;
+    border-radius: 2rem;
+}
+
+.sectionCuatro{
+    padding: 5rem;
+}
+
+.sectionCuatro .divUno{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionCuatro .divUno h2{
+    font-size: 3.5rem;
+    width: 45rem;
+}
+
+.sectionCuatro .divUno .texto{
+    font-size: 1.5rem;
+    width: 50rem;
+    line-height: 1.7;
+}
+
+.sectionCuatro .divDos{
+    margin: 5rem 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.sectionCuatro .divDos h3{
+    border-radius: 50%;
+    background-color: #222430;
+    color: white;
+    font-size: 2.5rem;
+    display: inline-block;
+    font-weight: bolder;
+    padding: 1rem 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.sectionCuatro .divDos h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.sectionCuatro .divDos p{
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+.sectionCuatro .divTres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionCuatro .divTres p{
+    font-size: 1.5rem;
+}
+
+
+.sectionCuatro .divTres button{
+    height: 4rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background 0.3s,
+                transform 0.2s;
+}
+
+.sectionCuatro .divTres button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.sectionCinco{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionCinco .divUno{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionCinco .divUno h2{
+    font-size: 3.5rem;
+    width: 45rem;
+    margin-bottom: 1rem;
+}
+
+.sectionCinco .divUno .texto{
+    font-size: 1.5rem;
+    width: 50rem;
+    line-height: 1.7;
+}
+
+.sectionCinco .imagen{
+    height: 70rem;
+    border-radius: 2rem;
+    width: 55rem;
+}
+
+
+.sectionCinco .divUno .divDos img{
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #222430;
+    padding: 1rem 1.2rem;
+}
+
+.sectionCinco .divUno .divDos{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.sectionCinco .divUno .divDos .divTres{
+    display: flex;
+    gap: 1.5rem;
+    width: 50rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.sectionCinco .divUno .divDos .divTres:nth-child(1){
+    box-shadow: 0rem 12rem 27rem #d3d3d3;
+}
+
+.sectionCinco .divUno .divDos .divTres h3{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.sectionCinco .divUno .divDos .divTres p{
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+.sectionSeis{
+    padding: 5rem;
+}
+
+.sectionSeis .divUno{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionSeis .divUno h2{
+    font-size: 3.5rem;
+    width: 45rem;
+}
+
+.sectionSeis .divUno .texto{
+    font-size: 1.5rem;
+    width: 50rem;
+    line-height: 1.7;
+}
+
+.sectionSeis .divDos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.sectionSeis .divDos .divTres{
+    font-size: 1.5rem;
+    line-height: 1.7;
+    padding: 1.5rem 1.5rem;
+    border-radius: 2rem;
+}
+
+.sectionSeis .divDos .divTres:nth-child(1){
+    box-shadow: 0rem 8rem 27rem #d3d3d3;
+}
+
+.sectionSeis .divDos .divTres img{
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.sectionSeis .divDos .divTres .divCuatro{
+    display: flex;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.sectionSiete{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionSiete .imagen{
+    height: 50rem;
+    border-radius: 2rem;
+}
+
+.sectionSiete .divUno{
+    height: 50rem;
+    width: 57rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionSiete .divUno h1{
+    font-size: 5.5rem;
+    width: 52rem;
+}
+
+.sectionSiete .divUno p{
+    font-size: 1.5rem;
+    width: 50rem;
+    line-height: 1.7;
+}
+
+.sectionSiete .divUno button{
+    border: none;
+    height: 4.5rem;
+    width: 18rem;
+    font-size: 1.5rem;
+    background-color: #3952B6;
+    color: white;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: background 0.3s,
+                transform 0.2s;
+}
+
+.sectionSiete .divUno button:hover{
+    background-color: #5c7cff;
+}
+
+.sectionSiete .divUno div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionSiete .divUno div img{
+    height: 18rem;
+    width: 18rem;
+    border-radius: 2rem;
+}
+
+footer{
+    padding: 7rem 5rem;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .divUno{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 23rem;
+}
+
+footer .divUno div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+footer .divUno div img{
+    height: 3rem;
+}
+
+footer .divUno div h6{
+    font-size: 1.5rem;
+}
+
+footer .divUno p{
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+
+footer .divDos{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 23rem;
+}
+
+footer .divDos h6{
+    font-size: 1.5rem;
+}
+footer .divDos div{
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+footer .divDos div p:hover{
+    text-decoration: underline;
+}
+
+footer .divTres{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 23rem;
+}
+
+footer .divTres h6{
+    font-size: 1.5rem;
+}
+
+footer .divTres div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+footer .divTres div:hover{
+    text-decoration: underline;
+}
+
+footer .divTres img{
+    height: 2rem;
+}
+
+footer .divCuatro{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 23rem;
+}
+
+footer .divCuatro p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+footer .divCuatro input{
+    height: 4rem;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    outline: none;
+    padding: 0 1rem;
+}
+
+footer .divCuatro button{
+    border: none;
+    height: 4rem;
+    font-size: 1.5rem;
+    background-color: #3952B6;
+    color: white;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: background 0.3s,
+                transform 0.2s;
+}
+
+footer .divCuatro button:hover{
+    background-color: #5c7cff;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Instrument+Serif&family=Nunito:wght@200;400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -167,8 +848,6 @@ p, a, h1, h2, h3{
     height: 6rem;
     background-color: #F5F5F5;
     border: none;
-    /* border-top-left-radius: 4rem ;
-    border-bottom-left-radius: 4rem; */
     padding-left: 2rem;
 }
 
@@ -806,7 +1485,7 @@ footer{
     }
     
 }
-/* @media(max-width:1024px){
+@media(max-width:1024px){
     *{
         flex-wrap: wrap;
     }
@@ -963,4 +1642,4 @@ footer{
     .perfil{
         height: 1rem;
     }
-} */
+}  */
